@@ -31,7 +31,7 @@ public class ContactsActivity extends AppCompatActivity {
 
         setContentView(binding.getRoot());
 
-        binding.btnRequest.setOnClickListener(v -> requestPermission());
+        binding.btnAction.setOnClickListener(v -> requestPermission());
         binding.btnUpdate.setOnClickListener(v -> update());
 
 
